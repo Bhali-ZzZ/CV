@@ -33,6 +33,7 @@ const Home = () => {
     <img src={about} alt=''/>
     </div>
     <div className='col-md-6 second'>
+    <h3>ABOUT ME</h3>
         <p>Hello! I'm Madega Tsikani, a passionate web developer based in South Africa. Currently, I'm in my first year of university, pursuing a degree in Computer Science. Alongside my studies, I work as a web developer, specializing in React and frontend technologies.
 
 With a strong foundation in the MERN stack, I bring creativity and technical expertise to every project. My portfolio reflects a commitment to delivering high-quality, user-friendly web solutions that meet client needs and exceed expectations. Whether it's developing dynamic websites or full-stack applications, I'm always eager to take on new challenges and grow as a developer.</p>

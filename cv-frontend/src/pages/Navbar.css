@@ -1,16 +1,20 @@
+/* Navbar Styles */
 .navbar {
-    background-color: black; /* Black background for navbar */
-  }
-  
-  .navbar-brand, .nav-link {
-    color: white !important; /* White text for links */
-  }
-  
-  .nav-link:hover {
-    border-bottom: 2px solid white; /* Border bottom on hover */
-  }
-  
-  .navbar-toggler-icon {
-    filter: invert(100%); /* Ensure the toggle icon is white */
-  }
-  
+  background: rgba(28, 28, 28, 0.8); /* Dark gray with opacity for a blurry effect */
+  backdrop-filter: blur(10px); /* Apply blur effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+}
+
+/* Navbar text and link styles */
+.navbar-brand, .nav-link {
+  color: white !important; /* Keep text white */
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid white; /* White border on hover */
+}
+
+/* Navbar toggler icon for mobile view */
+.navbar-toggler-icon {
+  filter: invert(100%); /* Keep the toggle icon white */
+}
