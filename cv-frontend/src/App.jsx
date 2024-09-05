@@ -11,7 +11,6 @@ import { AuthProvider } from './context/AuthContext.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import Home from './pages/Home.jsx';
-import Footer from './pages/Footer.jsx';
 
 
 const App = () => (
@@ -27,7 +26,6 @@ const App = () => (
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-      <Footer/>
     </AuthProvider>
   </Router>
 );

@@ -3,6 +3,7 @@ import React, { useEffect } from 'react';
 import './Home.css'; // Import your CSS file for styling
 import Typed from 'typed.js';
 import about from '../assets/about.jpeg'
+import Footer from './Footer';
 
 
 
@@ -40,6 +41,7 @@ With a strong foundation in the MERN stack, I bring creativity and technical exp
     </div>
     </div>
     </div>
+    <Footer/>
     </div>
   );
 };
