@@ -1,0 +1,125 @@
+.work-experience-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .work-experience-title {
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .work-experience-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .work-experience-form label {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+  }
+  
+  .work-experience-form input,
+  .work-experience-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .work-experience-form input:focus,
+  .work-experience-form textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+  }
+  
+  .work-experience-form button {
+    padding: 12px;
+    background-color: #17a2b8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .work-experience-form button:hover {
+    background-color: #138496;
+  }
+  
+  .work-experience-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .work-experience-item {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .work-experience-item h3 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .work-experience-item p {
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  .work-experience-item button {
+    padding: 8px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .work-experience-item button:hover {
+    background-color: #c82333;
+  }
+  .work-experience-container hr{
+    height: 3px;
+    background-color: black;
+  }
+  
+  @media (max-width: 768px) {
+    .work-experience-container {
+      padding: 15px;
+    }
+  
+    .work-experience-form input,
+    .work-experience-form textarea {
+      font-size: 0.9rem;
+      padding: 10px;
+    }
+  
+    .work-experience-form button {
+      font-size: 0.9rem;
+      padding: 10px 20px;
+    }
+  
+    .work-experience-item {
+      padding: 10px;
+    }
+  
+    .work-experience-item button {
+      font-size: 0.8rem;
+    }
+  }
+  

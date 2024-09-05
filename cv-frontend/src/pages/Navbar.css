@@ -1,0 +1,16 @@
+.navbar {
+    background-color: black; /* Black background for navbar */
+  }
+  
+  .navbar-brand, .nav-link {
+    color: white !important; /* White text for links */
+  }
+  
+  .nav-link:hover {
+    border-bottom: 2px solid white; /* Border bottom on hover */
+  }
+  
+  .navbar-toggler-icon {
+    filter: invert(100%); /* Ensure the toggle icon is white */
+  }
+  

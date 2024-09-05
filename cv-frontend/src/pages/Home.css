@@ -1,0 +1,64 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+    width: 50%;
+    margin: auto;
+    background-image: url('bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .home-container p{
+    text-align: center;
+    color: white;
+  }
+.home-about{
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 3px 4px 4px black;
+  }
+  .about-img{
+    text-align: center;
+  }
+  .second p{
+    text-align: justify;
+  }
+  
+  .before {
+    font-size: 2rem; /* Adjust font size as needed */
+    color: white; /* White text color */
+    text-align: center; /* Center text inside h1 */
+    font-weight: bolder;
+    
+    /* Create a stroke effect using text-shadow */
+    text-shadow: 
+      1px 1px 0 #000, /* Offset shadow for stroke effect */
+      -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      0 1px 0 #000,
+      0 -1px 0 #000,
+      1px 0 0 #000,
+      -1px 0 0 #000;
+  }
+  
+  .auto-type {
+    display: inline-block; /* Ensure auto-type text aligns properly */
+  }
+  @media (max-width: 768px) {
+    .before {
+      font-size: 1.5rem; /* Adjust font size for smaller screens */
+    }
+  }
+  
+  /* Media Query for mobile screens */
+  @media (max-width: 480px) {
+    .before {
+      font-size: 1.2rem; /* Further adjust font size for very small screens */
+    }
+  }
+  
